@@ -20,11 +20,11 @@ npm install queue
 
 client.on('ready',  () => {
 
-client.user.setGame(`4play`,'https://www.twitch.tv/hix')
+client.user.setGame(`1play`,'https://www.twitch.tv/hix')
 client.user.setStatus("online");
 });
 
-const prefix = "4"
+const prefix = "1"
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 
@@ -72,10 +72,10 @@ client.on('message', async msg => { // eslint-disable-line
 					var videos = await youtube.searchVideos(searchString, 5);
 					let index = 0;
 					const embed1 = new Discord.RichEmbed()
-			        .setDescription(`**الرجآء من حضرتك إخالمقطع** :
+			        .setDescription(`**الرجآء من حضرتك اختيار مقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 
-					.setFooter("best")
+					.setFooter("GB Music")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					// eslint-disable-next-line max-depth
