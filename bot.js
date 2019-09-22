@@ -237,4 +237,4 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
    }
    }); 
    
-	client.login('NjI1MzQzMTA1ODY4MTAzNjkw.XYeKiQ.f8WnBK8QF0FCFXs_-B99Anm2oH8')
+	client.login("NjI1MzQzMTA1ODY4MTAzNjkw.XYeKiQ.f8WnBK8QF0FCFXs_-B99Anm2oH8")
